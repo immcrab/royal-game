@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Royal P2P Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Royal Multiplayer (WebRTC)</h1>
+
+    <div id="menu">
+        <input id="username" placeholder="Username">
+        <button onclick="createRoom()">Create Room</button>
+        <input id="roomCode" placeholder="Room Code">
+        <button onclick="joinRoom()">Join Room</button>
+    </div>
+
+    <canvas id="game"></canvas>
+
+    <script src="webrtc.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
